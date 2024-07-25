@@ -25,8 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['Monish-Alavalapati/DualPort_RAM', 'Monish-Alavalapati/Vedic-Multiplier
-', 'Monish-Alavalapati/ShapeRecognition-using-FourierDescriptors', 'Monish-Alavalapati/CustomArduinoUNO'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Monish-Alavalapati/DualPort_RAM', 'Monish-Alavalapati/Vedic-Multiplier', 'Monish-Alavalapati/ShapeRecognition-using-FourierDescriptors', 'Monish-Alavalapati/CustomArduinoUNO'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
