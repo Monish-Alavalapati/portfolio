@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'Monish Alavalapati', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -19,13 +19,14 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Monish-Alavalapati/DualPort_RAM', 'Monish-Alavalapati/Vedic-Multiplier
+', 'Monish-Alavalapati/ShapeRecognition-using-FourierDescriptors', 'Monish-Alavalapati/CustomArduinoUNO'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,33 +34,49 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Dual Port RAM',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This project contains the Verilog implementation of a Dual Port RAM. Dual Port RAM allows simultaneous read and write operations on separate ports, providing flexibility for various applications.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/Monish-Alavalapati/DualPort_RAM',
         },
         {
-          title: 'Project Name',
+          title: 'Shape Recognition Using Fourier Descriptors',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This MATLAB project focuses on shape recognition using Fourier descriptors. Fourier descriptors are mathematical representations of the shapes of objects, which can be used for shape analysis and recognition.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/Monish-Alavalapati/ShapeRecognition-using-FourierDescriptors',
+        },
+        {
+          title: 'Vedic Multiplier',
+          description:
+            'This repository contains the Verilog implementation of a Vedic Multiplier.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/Monish-Alavalapati/Vedic-Multiplier',
+        },
+        {
+          title: 'Custom Arduino UNO',
+          description:
+            'Made a custom arduino PCB design which is cost effective and has optimized power management',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/Monish-Alavalapati/CustomArduinoUNO',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Monish Alavalapati',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'Monish-Alavalapati',
+    twitter: 'MonishAlvalpati',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,97 +86,145 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: '',
+    phone: '+918519851685',
+    email: 'monishalavalapati@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1uaRRT1JIIcv--yr1PEAX5czZK5wnrBF1/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
+    'Verilog',
+    'System Verilog',
+    'TinyML',
+    'MATLAB',
+    'VHDL',
     'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'C++',
+    'Python',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'C',
+    'Perl',
+    'Arduino',
+    'Bash',
+    'Simulink',
+    'Cadence Virtuoso',
+    'KiCAD',
+    'XILINX Vivado',
+    'PicsimLab',
+    'Multisim',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'OPTELLENT, INC.',
+      position: 'Design Engineer Intern',
+      from: 'May 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'http://optellent.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Emertxe Information Technologies',
+      position: 'Project Intern',
+      from: 'Feb. 2024',
+      to: 'March 2024',
+      companyLink: 'https://www.emertxe.com',
+    },
+    {
+      company: 'Electronics Club-ELIX',
+      position: 'Sub-Technical Lead',
+      from: 'Oct. 2023',
+      to: 'Present',
+      companyLink: '',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Crash Course Electronics and PCB Design',
+      body: '',
+      year: 'May 2024',
+      link: 'http://ude.my/UC-54295390-496b-40ad-b006-8a2f7f0005ba',
+    },
+    {
+      name: 'Timing Analysis for Intel FPGAs ',
+      body: '',
+      year: 'Jan. 2024',
+      link: 'https://www.credly.com/badges/1bd24d76-260f-40f8-911d-7d494d9293c7/public_url',
+    },
+    {
+      name: 'Verilog HDL Basics',
+      body: '',
+      year: 'Dec. 2023',
+      link: 'https://www.credly.com/badges/b9ba0c51-56be-4f91-9ba8-feb79e62083d/public_url',
+    },
+    {
+      name: 'Verilog HDL Basics',
+      body: '',
+      year: 'Dec. 2023',
+      link: 'https://www.credly.com/badges/b9ba0c51-56be-4f91-9ba8-feb79e62083d/public_url',
+    },
+    {
+      name: 'Introduction to Embedded Machine Learning',
+      body: '',
+      year: 'Sept. 2023',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/JBNKWQGZAB5U',
+    },
+    {
+      name: 'The Arduino Platform and C Programming',
+      body: '',
+      year: 'Aug. 2023',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/2E4GAXYRECMT',
+    },
+    {
+      name: 'Simulink',
+      body: '',
+      year: 'July 2023',
+      link: 'https://matlabacademy.mathworks.com/progress/share/certificate.html?id=61add314-f1d9-4699-bf3a-197451bf05ee&',
+    },
+    {
+      name: 'Introduction to Programming Using Python',
+      body: '',
+      year: 'March 2023',
+      link: 'https://www.sololearn.com/certificates/CC-C1B1JSIP',
+    },   
+  ],
+  education: [
+    {
+      institution: 'Indian Institute of Information Technology, Kottayam',
+      degree: 'B.Tech in Electronics and Communication Engineering',
+      from: '2022',
+      to: '2026',
     },
   ],
-  educations: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  // publications: [
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: '',
+  //     journalName: 'Journal Name',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: 'Conference Name',
+  //     journalName: '',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  // ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,7 +236,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dim',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -186,39 +251,13 @@ const CONFIG = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
       'synthwave',
-      'retro',
-      'cyberpunk',
       'valentine',
       'halloween',
-      'garden',
       'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
       'luxury',
       'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
       'dim',
-      'nord',
-      'sunset',
-      'procyon',
     ],
 
     // Custom theme, applied to `procyon` theme
@@ -240,7 +279,7 @@ const CONFIG = {
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
