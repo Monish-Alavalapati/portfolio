@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/portfolio/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -64,6 +64,14 @@ const CONFIG = {
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://github.com/Monish-Alavalapati/CustomArduinoUNO',
         },
+        {
+          title: 'Game of Ping-Pong',
+          description:
+            'Developed a functional ping-pong game for LCD display using STR912 FPGA board',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: '',
+        },
       ],
     },
   },
@@ -104,7 +112,6 @@ const CONFIG = {
     'TinyML',
     'MATLAB',
     'VHDL',
-    'Nest.js',
     'C++',
     'Python',
     'Git',
